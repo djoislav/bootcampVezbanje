@@ -1,0 +1,145 @@
+PC@DJOISLAV MINGW64 ~/Desktop/bootcampVezbanje (main)
+$ git init
+Reinitialized existing Git repository in C:/Users/PC/Desktop/bootcampVezbanje/.git/
+
+PC@DJOISLAV MINGW64 ~/Desktop/bootcampVezbanje (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        deleted:    https:/github.com/djoislav/vezba1.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        DjordjeIlic/
+
+
+PC@DJOISLAV MINGW64 ~/Desktop/bootcampVezbanje (main)
+$ git add DjordjeIlic
+
+PC@DJOISLAV MINGW64 ~/Desktop/bootcampVezbanje (main)
+$ git status
+warning: unable to access 'https:/.gitattributes': Invalid argument
+warning: unable to access 'https:/github.com/.gitattributes': Invalid argument
+warning: unable to access 'https:/github.com/djoislav/.gitattributes': Invalid argument
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   DjordjeIlic/licnipodaci.txt
+        deleted:    https:/github.com/djoislav/vezba1.txt
+
+
+PC@DJOISLAV MINGW64 ~/Desktop/bootcampVezbanje (main)
+$ git commit -m "Dodat novi folder DjordjeIlic sa licnim podacima"
+[main eca4a96] Dodat novi folder DjordjeIlic sa licnim podacima
+ 2 files changed, 3 insertions(+), 1 deletion(-)
+ create mode 100644 DjordjeIlic/licnipodaci.txt
+ delete mode 100644 https:/github.com/djoislav/vezba1.txt
+
+PC@DJOISLAV MINGW64 ~/Desktop/bootcampVezbanje (main)
+$ git pull
+Already up to date.
+
+PC@DJOISLAV MINGW64 ~/Desktop/bootcampVezbanje (main)
+$ git push -u origin master
+error: src refspec master does not match any
+error: failed to push some refs to 'https://github.com/djoislav/bootcampVezbanje.git'
+
+PC@DJOISLAV MINGW64 ~/Desktop/bootcampVezbanje (main)
+$ git push -u origin main
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (4/4), 382 bytes | 191.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/djoislav/bootcampVezbanje.git
+   34f9243..eca4a96  main -> main
+Branch 'main' set up to track remote branch 'main' from 'origin'.
+
+PC@DJOISLAV MINGW64 ~/Desktop/bootcampVezbanje (main)
+$ git clone https:/github.com/djoislav/vezba1.txt
+Cloning into 'vezba1.txt'...
+ssh: Could not resolve hostname https: Name or service not known
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+PC@DJOISLAV MINGW64 ~/Desktop/bootcampVezbanje (main)
+$ PC@DJOISLAV MINGW64 ~/Desktop/bootcampVezbanje (main)
+bash: syntax error near unexpected token `('
+Reinitialized existing Git repository in C:/Users/PC/Desktop/bootcampVezbanje/.git/
+
+PC@DJOISLAV MINGW64 ~/Desktop/bootcampVezbanje (main)
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        deleted:    https:/github.com/djoislav/vezba1.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        DjordjeIlic/
+
+
+PC@DJOISLAV MINGW64 ~/Desktop/bootcampVezbanje (main)
+$ git add DjordjeIlic
+
+PC@DJOISLAV MINGW64 ~/Desktop/bootcampVezbanje (main)
+$ git status
+warning: unable to access 'https:/.gitattributes': Invalid argument
+warning: unable to access 'https:/github.com/.gitattributes': Invalid argument
+warning: unable to access 'https:/github.com/djoislav/.gitattributes': Invalid argument
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   DjordjeIlic/licnipodaci.txt
+        deleted:    https:/github.com/djoislav/vezba1.txt
+
+
+PC@DJOISLAV MINGW64 ~/Desktop/bootcampVezbanje (main)
+$ git commit -m "Dodat novi folder DjordjeIlic sa licnim podacima"
+[main eca4a96] Dodat novi folder DjordjeIlic sa licnim podacima
+ 2 files changed, 3 insertions(+), 1 deletion(-)
+ create mode 100644 DjordjeIlic/licnipodaci.txt
+ delete mode 100644 https:/github.com/djoislav/vezba1.txt
+
+PC@DJOISLAV MINGW64 ~/Desktop/bootcampVezbanje (main)
+$ git pull
+Already up to date.
+
+PC@DJOISLAV MINGW64 ~/Desktop/bootcampVezbanje (main)
+$ git push -u origin master
+error: src refspec master does not match any
+error: failed to push some refs to 'https://github.com/djoislav/bootcampVezbanje.git'
+
+PC@DJOISLAV MINGW64 ~/Desktop/bootcampVezbanje (main)
+$ git push -u origin main
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (4/4), 382 bytes | 191.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/djoislav/bootcampVezbanje.git
+   34f9243..eca4a96  main -> main
+Branch 'main' set up to track remote branch 'main' from 'origin'.
+
+PC@DJOISLAV MINGW64 ~/Desktop/bootcampVezbanje (main)
+$ git clone https:/github.com/djoislav/vezba1.txt
+Cloning into 'vezba1.txt'...
+ssh: Could not resolve hostname https: Name or service not known
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
